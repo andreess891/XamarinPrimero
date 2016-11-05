@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="App1.samplePage">
+	<ListView x:Name="lstSample" HasUnevenRows="true">
+		<ListView.ItemTemplate>
+			<DataTemplate>
+				<ViewCell>
+					<Grid>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="Auto"></ColumnDefinition>
+							<ColumnDefinition Width="*"></ColumnDefinition>
+						</Grid.ColumnDefinitions>
+						<Image WidthRequest="100"
+								HeightRequest="100"
+							Source="icon.png"/>
+						<StackLayout Grid.Column="1">
+							<Label TextColor="{StaticResource MainColor}" 
+									FontSize="18"
+								Text="Titulo del chat"></Label>
+							<Label Text="Preview del chat"></Label>
+						</StackLayout>
+					</Grid>
+				</ViewCell>
+			</DataTemplate>
+		</ListView.ItemTemplate>
+	</ListView>
+</ContentPage>

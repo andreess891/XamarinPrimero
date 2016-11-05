@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{C037E69B-DC6C-43F6-8D4F-0F7F196CADB2}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="App1/Pages/TabsPage.xaml.cs" Line="8" Column="44" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.App1.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.88480988-315D-4BEC-96B0-C1BEBDA4B90C" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jonatanlondonotaborda/Projects/App1/App1/samplePage.xaml" line="3" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.App1.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>

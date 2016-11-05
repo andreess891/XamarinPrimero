@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:App1" x:Class="App1.App1Page">
+	<StackLayout>
+		<ScrollView Orientation="Horizontal">
+			<StackLayout BackgroundColor="Green" 
+						 Orientation="Horizontal"
+						 VerticalOptions="Start"
+						 Spacing="0">
+				<BoxView HorizontalOptions="Center"
+						 Color="Blue"
+						 WidthRequest="100"
+						 HeightRequest="100"/>
+				
+				<BoxView Color="Red"
+						 WidthRequest="100"
+						 HeightRequest="100"/>
+				
+				<BoxView Color="Yellow"
+						 WidthRequest="100"
+						 HeightRequest="100"/>
+
+
+
+				<BoxView HorizontalOptions="Center"
+						 Color="Blue"
+						 WidthRequest="100"
+						 HeightRequest="100"/>
+				
+				<BoxView Color="Red"
+						 WidthRequest="100"
+						 HeightRequest="100"/>
+				
+				<BoxView Color="Yellow"
+						 WidthRequest="100"
+						 HeightRequest="100"/>
+			</StackLayout>
+		</ScrollView>
+		<Grid RowSpacing="0" ColumnSpacing="0">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition></ColumnDefinition>
+				<ColumnDefinition></ColumnDefinition>
+				<ColumnDefinition></ColumnDefinition>
+			</Grid.ColumnDefinitions>
+			<Grid.RowDefinitions>
+				<RowDefinition></RowDefinition>
+				<RowDefinition></RowDefinition>
+				<RowDefinition></RowDefinition>
+			</Grid.RowDefinitions>
+			<BoxView Grid.Column ="0"
+					 Grid.Row="0"
+					 Grid.ColumnSpan ="2"
+					 HorizontalOptions="Center"
+					 Color="Blue"
+					 WidthRequest="100"
+					 HeightRequest="100"/>
+				
+				<BoxView Grid.Column ="1"
+					 	 Grid.Row="1"
+						 Color="Red"
+						 WidthRequest="100"
+						 HeightRequest="100"/>
+				
+				<BoxView Grid.Column ="2"
+					 	Grid.Row="2"
+						 Color="Yellow"
+						 WidthRequest="100"
+						 HeightRequest="100"/>
+		</Grid>
+	</StackLayout>
+</ContentPage>
